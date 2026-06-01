@@ -1,0 +1,104 @@
+//Complete vector program to understand its basics operations 
+
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main()
+{
+    // 1. Empty Vector
+    vector<int> v;
+
+    cout << "Initially:" << endl;
+    cout << "Size = " << v.size() << endl;
+    cout << "Capacity = " << v.capacity() << endl;
+
+    // 2. push_back()
+    v.push_back(10);
+    v.push_back(20);
+    v.push_back(30);
+    v.push_back(40);
+
+    cout << "\nAfter push_back:" << endl;
+
+    // 3. Traversal
+    for(auto x : v)
+    {
+        cout << x << " ";
+    }
+
+    cout << endl;
+
+    // 4. size() and capacity()
+    cout << "Size = " << v.size() << endl;
+    cout << "Capacity = " << v.capacity() << endl;
+
+    // 5. front() and back()
+    cout << "First Element = " << v.front() << endl;
+    cout << "Last Element = " << v.back() << endl;
+
+    // 6. Index Access
+    cout << "Element at index 2 = "
+         << v[2] << endl;
+
+    // 7. insert()
+    v.insert(v.begin()+2,25);
+
+    cout << "\nAfter insert:" << endl;
+
+    for(auto x:v)
+    {
+        cout << x << " ";
+    }
+
+    cout << endl;
+
+    // 8. erase()
+    v.erase(v.begin()+1);
+
+    cout << "\nAfter erase:" << endl;
+
+    for(auto x:v)
+    {
+        cout << x << " ";
+    }
+
+    cout << endl;
+
+    // 9. pop_back()
+    v.pop_back();
+
+    cout << "\nAfter pop_back:" << endl;
+
+    for(auto x:v)
+    {
+        cout << x << " ";
+    }
+
+    cout << endl;
+
+    // 10. resize()
+    v.resize(6,100);
+
+    cout << "\nAfter resize:" << endl;
+
+    for(auto x:v)
+    {
+        cout << x << " ";
+    }
+
+    cout << endl;
+
+    // 11. empty()
+    cout << "\nIs vector empty? "
+         << v.empty() << endl;
+
+    // 12. clear()
+    v.clear();
+
+    cout << "\nAfter clear:" << endl;
+    cout << "Size = " << v.size() << endl;
+    cout << "Empty = " << v.empty() << endl;
+
+    return 0;
+}
