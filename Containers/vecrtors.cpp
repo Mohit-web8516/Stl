@@ -242,46 +242,106 @@
 // int main()
 // {
 //     vector<int> v={10,20,30,40,50,60};
+   
 
-//     v.erase(v.begin()+1,v.end());
-//     v.insert(v.begin(),300); //insert value at beginning
-//     v.insert(v.begin()+2,25); //insert in middle
-//     v.insert(v.begin() + 1 ,5,500);  //insert mutliple
-//     v.insert(v.end(),40); //insert at end 
-//     vector<int> copy(2,80);
-//     v.insert(v.begin(), copy.begin(), copy.end());
+//     // v.erase(v.begin()+1,v.end());
+//     // v.insert(v.begin(),300); //insert value at beginning
+//     // v.insert(v.begin()+2,25); //insert in middle
+//     // v.insert(v.begin() + 1 ,5,500);  //insert mutliple
+//     // v.insert(v.end(),40); //insert at end 
+//     // vector<int> copy(2,80);
+  
+//     // v.insert(v.begin(), copy.begin(), copy.end());
  
 //     cout<< v.size() << endl;
 //     for(auto x:v)
 //     {
 //         cout<<x<<" " ;
+       
 //     }
 // }
 
 
 /////////////////////////////////////////////////
 //Program to understand copy
+//insert at beginning
 
-#include <iostream>
-#include <vector>
-using namespace std;
+// #include <iostream>
+// #include <vector>
+// using namespace std;
 
-int main()
-{
-    // Original vector
-    vector<int> v = {10,20,30};
+// int main()
+// {
+//     // Original vector
+//     vector<int> v = {10,20,30};
 
-    // Copy vector
-    vector<int> copy(2,80);
+//     // Copy vector
+//     vector<int> copy(2,80);
 
-    // Insert copy vector into v
-    v.insert(v.begin(), copy.begin(), copy.end());
+//     // Insert copy vector into v
+//     v.insert(v.begin(), copy.begin(), copy.end());
 
-    // Print final vector
-    for(auto x : v)
-    {
-        cout << x << " ";
-    }
+//     // Print final vector
+//     for(auto x : v)
+//     {
+//         cout << x << " ";
+//     }
 
-    return 0;
-}
+//     return 0;
+// }
+
+
+
+////////////////////////////////////
+//insert at end
+// #include <iostream>
+// #include <vector>
+// using namespace std;
+
+// int main()
+// {
+//     vector<int> v={10,20,30};
+//     vector<int> copy(2,80);
+
+//     v.insert(v.end(),
+//              copy.begin(),
+//              copy.end());
+
+//     for(auto x:v)
+//     {
+//         cout<<x<<" ";
+//     }
+// }
+
+
+//////////////////////////////////////////////
+
+
+//Complete program to understand copy 
+
+// #include <iostream>
+// #include <vector>
+// using namespace std;
+
+// int main()
+// {
+//     vector<int> v = {10,20,30};
+//     vector<int> copy = {80,333};
+
+//     // Insert at beginning
+//     v.insert(v.begin(),
+//              copy.begin(),
+//              copy.end());
+
+//     // Insert at end
+//     v.insert(v.end(),
+//              copy.begin(),
+//              copy.end());
+
+//     for(auto x : v)
+//     {
+//         cout << x << " ";
+//     }
+
+//     return 0;
+// }
