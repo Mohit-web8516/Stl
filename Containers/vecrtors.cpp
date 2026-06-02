@@ -172,3 +172,62 @@
 
 //     cout<<*v.rbegin();
 // }
+
+
+////////////////////////////////////
+
+
+//rend()
+
+// #include<iostream>
+// #include <vector>
+// using namespace std;
+// int main(){
+//     vector <int> v = {10,20,30,40};
+
+//     for(auto it=v.rbegin();
+//     it!=v.rend();
+//     it++)
+// {
+//     cout<<*it<<" ";
+// }
+
+// }
+
+///////////////////////////////////////
+
+//at()
+
+
+// #include <iostream>
+// #include <vector>
+// using namespace std;
+
+// int main()
+// {
+//     vector<int> v={10,20,30,40,50,60};
+
+//     cout<<v.at(5);
+    
+// }
+
+
+/////////////////////////////////////////////
+//Erase()
+
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main()
+{
+    vector<int> v={10,20,30,40,50,60};
+
+    // v.erase(v.begin()+1,v.end());
+    v.erase(v.begin()+1,v.begin()+4); //Will remove middle range (20,30,40)
+
+    for(auto x:v)
+    {
+        cout<<x<<" ";
+    }
+}
