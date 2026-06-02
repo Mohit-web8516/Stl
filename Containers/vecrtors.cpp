@@ -104,39 +104,71 @@
 // }
 
 ////////////////////////////////////////////
-#include <iostream>
-#include <vector>
-using namespace std;
-int main(){
-    vector <int> v = {10,20,30,40};
+//iterator
+// #include <iostream>
+// #include <vector>
+// using namespace std;
+// int main(){
+//     vector <int> v = {10,20,30,40};
 
-    //iterator declaration
-    vector<int> :: iterator it;
+//     //iterator declaration
+//     vector<int> :: iterator it;
 
-    //Point iterator to beginning 
-    it = v.begin();
+//     //Point iterator to beginning 
+//     it = v.begin();
 
-    cout << "First value : " << *it << endl;
+//     cout << "First value : " << *it << endl;
 
-    //Move iterator
-    it++;
+//     //Move iterator
+//     it++;
 
-    cout <<"Second value : " << *it << endl;
-    it++;
+//     cout <<"Second value : " << *it << endl;
+//     it++;
 
-    cout << "Third value : " << *it << endl;
+//     cout << "Third value : " << *it << endl;
 
-    cout << "\nTraversal using iterator : \n";
+//     cout << "\nTraversal using iterator : \n";
 
-    //Traversing using iterator 
+//     //Traversing using iterator 
 
-    for (it = v.begin(); it != v.end(); it++)
-    {
-        cout << *it << " ";
+//     for (it = v.begin(); it != v.end(); it++)
+//     {
+//         cout << *it << " ";
 
-    }
+//     }
 
-    cout << endl;
-    return 0;
+//     cout << endl;
+//     return 0;
 
-}
+// }
+
+////////////////////////////////////
+// iterator fucntions
+
+//end()
+
+// #include <iostream>
+// #include <vector>
+// using namespace std;
+
+// int main()
+// {
+//     vector<int> v={10,20,30,40};
+
+//     cout<<*(v.end()-1);
+// }
+
+/////////////////////////////////////
+
+//rbegin()
+
+// #include <iostream>
+// #include <vector>
+// using namespace std;
+
+// int main()
+// {
+//     vector<int> v={10,20,30,40};
+
+//     cout<<*v.rbegin();
+// }
