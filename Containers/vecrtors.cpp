@@ -215,19 +215,40 @@
 /////////////////////////////////////////////
 //Erase()
 
-#include <iostream>
-#include <vector>
-using namespace std;
+// #include <iostream>
+// #include <vector>
+// using namespace std;
 
-int main()
-{
-    vector<int> v={10,20,30,40,50,60};
+// int main()
+// {
+//     vector<int> v={10,20,30,40,50,60};
 
-    // v.erase(v.begin()+1,v.end());
-    v.erase(v.begin()+1,v.begin()+4); //Will remove middle range (20,30,40)
+//     // v.erase(v.begin()+1,v.end());
+//     v.erase(v.begin()+1,v.begin()+4); //Will remove middle range (20,30,40)
 
-    for(auto x:v)
-    {
-        cout<<x<<" ";
-    }
-}
+//     for(auto x:v)
+//     {
+//         cout<<x<<" ";
+//     }
+// }
+
+//////////////////////////////////////////////
+//Insert
+
+// #include <iostream>
+// #include <vector>
+// using namespace std;
+
+// int main()
+// {
+//     vector<int> v={10,20,30,40,50,60};
+
+//     // v.erase(v.begin()+1,v.end());
+//     // v.insert(v.begin(),300);
+//     v.insert(v.begin() + 1 ,5,500); 
+
+//     for(auto x:v)
+//     {
+//         cout<<x<<" ";
+//     }
+// }
