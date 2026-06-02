@@ -319,29 +319,29 @@
 
 //Complete program to understand copy 
 
-// #include <iostream>
-// #include <vector>
-// using namespace std;
+#include <iostream>
+#include <vector>
+using namespace std;
 
-// int main()
-// {
-//     vector<int> v = {10,20,30};
-//     vector<int> copy = {80,333};
+int main()
+{
+    vector<int> v = {10,20,30};
+    vector<int> copy = {80,333};
 
-//     // Insert at beginning
-//     v.insert(v.begin(),
-//              copy.begin(),
-//              copy.end());
+    // Insert at beginning
+    v.insert(v.begin(),
+             copy.begin(),
+             copy.end());
 
-//     // Insert at end
-//     v.insert(v.end(),
-//              copy.begin(),
-//              copy.end());
+    // Insert at end
+    v.insert(v.end(),
+             copy.begin(),
+             copy.end());
 
-//     for(auto x : v)
-//     {
-//         cout << x << " ";
-//     }
+    for(auto x : v)
+    {
+        cout << x << " ";
+    }
 
-//     return 0;
-// }
+    return 0;
+}
