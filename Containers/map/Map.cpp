@@ -172,7 +172,7 @@ int main()
 
     for(auto x:m)
     {
-        cout<<x.first<<" "
+        cout<< x.first<<" "
             <<x.second<<endl;
     }
 
