@@ -147,7 +147,7 @@ int main()
         cout<<x<<" ";
     }
 
-    cout<<endl;
+    cout<< endl;
 
     cout<<"Size: "
         <<ms.size()<<endl;
