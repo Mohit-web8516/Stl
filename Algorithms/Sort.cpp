@@ -84,8 +84,8 @@ int main()
 
     for(auto x:v)
     {
-        cout<<x.first<<" "
-            <<x.second<<endl;
+        cout<< x.first<<" "
+            << x.second<<endl;
     }
 
     return 0;
