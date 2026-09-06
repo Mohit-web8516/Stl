@@ -49,7 +49,7 @@ int main()
 
     while(!q.empty())
     {
-        cout<<q.front()<<" ";
+        cout<< q.front()<<" ";
         q.pop();
     }
 }
