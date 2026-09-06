@@ -104,7 +104,7 @@ Returns:
 //     }
 //     else
 //     {
-//         cout<<"Not empty \n";
+//         cout<< "Not empty \n";
 //     }
 //     cout << v.capacity();
 // }
