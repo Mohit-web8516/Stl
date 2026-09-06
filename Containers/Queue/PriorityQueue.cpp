@@ -84,7 +84,7 @@ int main()
 
     while(!pq.empty())
     {
-        cout<<pq.top()<<" ";
+        cout<< pq.top()<<" ";
         pq.pop();
     }
 }
