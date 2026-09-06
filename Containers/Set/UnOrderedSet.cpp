@@ -156,7 +156,7 @@ int main()
     cout<<endl;
 
     cout<<"Size: "
-        <<us.size()<<endl;
+        << us.size()<<endl;
 
     cout<<"Empty: "
         <<us.empty()<<endl;
