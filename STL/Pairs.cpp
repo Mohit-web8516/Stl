@@ -31,7 +31,7 @@ using namespace std;
 
 int main()
 {
-    pair<int, pair<int,int >> p = {1,{3,5}};
+    pair<int,  pair<int,int >> p = {1,{3,5}};
 
 
     cout << p.first << " " << p.second.first ;
