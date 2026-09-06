@@ -33,7 +33,7 @@ int main()
     cout<<"Count 1: "
         <<mm.count(1)<<endl;
 
-    auto it=mm.find(1);
+    auto it= mm.find(1);
 
     if(it!=mm.end())
         cout<<"Found\n";
