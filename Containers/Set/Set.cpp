@@ -146,7 +146,7 @@ int main()
 
     s.erase(20);
 
-    cout<<"After erase: ";
+    cout<<" After erase: ";
 
     for(auto x:s)
     {
