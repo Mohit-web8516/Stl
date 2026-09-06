@@ -5,7 +5,7 @@
 using namespace std;
 
 int main() {
-    vector<double> v = {5.5,2,8,1};
+    vector<double> v = {5.5 ,2,8,1};
 
     sort(v.begin(), v.end());
 
