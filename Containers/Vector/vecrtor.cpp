@@ -340,7 +340,7 @@ int main()
 
     for(auto x : v)
     {
-        cout << x << " ";
+        cout <<  x << " ";
     }
 
     return 0;
