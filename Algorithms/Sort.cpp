@@ -24,7 +24,7 @@
 ///////////////////////////////////////////////
 
 
-//Descending sort
+//Descending    sort
 //syntax
 // sort(begin,end,greater<int>());
 
