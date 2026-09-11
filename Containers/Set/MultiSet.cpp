@@ -149,6 +149,6 @@ int main()
 
     cout<< endl;
 
-    cout<<"Size: "
+    cout<<"  Size: "
         <<ms.size()<<endl;
 }
