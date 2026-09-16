@@ -140,7 +140,7 @@ int main()
 
     ms.erase(it);
 
-    cout<<"After erase: ";
+    cout<<"  After erase: ";
 
     for(auto x:ms)
     {
