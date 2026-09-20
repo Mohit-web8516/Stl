@@ -150,7 +150,7 @@ int main()
 
     for(auto x:s)
     {
-        cout<<x<<" ";
+        cout<< x<<" ";
     }
 
     cout<<endl;
