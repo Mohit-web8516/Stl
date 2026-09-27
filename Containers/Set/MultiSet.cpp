@@ -144,7 +144,7 @@ int main()
 
     for(auto x:ms)
     {
-        cout<<x<<" ";
+        cout<< x<<" ";
     }
 
     cout<< endl;
