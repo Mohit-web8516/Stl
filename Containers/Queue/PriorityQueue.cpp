@@ -81,7 +81,7 @@ int main()
     pq.push(50);
     pq.push(20);
     pq.push(30);
-    pq.push(30);
+  
    
 
     while(!pq.empty())
