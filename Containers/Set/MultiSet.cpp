@@ -134,7 +134,7 @@ int main()
     cout<<endl;
 
     cout<<"Count 20: "
-        <<ms.count(20)<<endl;
+        <<ms.count(620)<<endl;
 
     auto it=ms.find(10);
 
