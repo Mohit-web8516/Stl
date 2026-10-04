@@ -27,6 +27,8 @@ int main() {
     pq.push(10);
     pq.push(30);
     pq.push(20);
+    pq.push(20);
+    pq.push(20);
 
     cout << pq.top();
 }
