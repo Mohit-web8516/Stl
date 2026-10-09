@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    pair<int, string> p = {10, "Mohit"};
+    pair<int,string> p = {10, "Mohit"};
 
     cout << p.first << " ";
     cout << p.second;
