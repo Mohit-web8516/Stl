@@ -24,5 +24,5 @@ int main() {
         freq[x]++;
 
     for (auto p : freq)
-        cout << p.first << " -> " << p.second << endl;
+        cout <<  p.first << " -> " << p.second << endl;
 }
