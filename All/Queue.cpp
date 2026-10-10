@@ -75,4 +75,10 @@ auto it = find(v.begin(), v.end(), 20);
 
 if (it != v.end())
     cout << "Found";*/
-    
+
+//////////////////////////////////
+//min()/max()
+int a = 10, b = 20;
+
+cout << min(a, b) << endl;
+cout << max(a, b) << endl;
