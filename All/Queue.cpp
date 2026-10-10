@@ -78,7 +78,16 @@ if (it != v.end())
 
 //////////////////////////////////
 //min()/max()
-int a = 10, b = 20;
+/*int a = 10, b = 20;
 
 cout << min(a, b) << endl;
-cout << max(a, b) << endl;
+cout << max(a, b) << endl;*/
+
+///////////////////////////////
+//swap()
+/*int a = 10;
+int b = 20;
+
+swap(a, b);
+
+cout << a << " " << b;*/
