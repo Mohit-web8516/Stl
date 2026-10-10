@@ -51,4 +51,17 @@
 
 
 ///////////////////////////////
+//lowe_bound() and upper_bound()
 
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    vector<int> v = {1, 2, 2, 2, 4, 5};
+
+    auto a = lower_bound(v.begin(), v.end(), 2);
+    auto b = upper_bound(v.begin(), v.end(), 2);
+
+    cout << a - v.begin() << endl;
+    cout << b - v.begin() << endl;
+}
