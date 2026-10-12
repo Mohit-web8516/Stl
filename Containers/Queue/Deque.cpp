@@ -72,16 +72,16 @@ clear()*/
 //print deque
 //Unlike stack and queue, deque supports iterators and indexing, so printing deque is easy.
 
-// #include <iostream>
-// #include <deque>
-// using namespace std;
+#include <iostream>
+#include <deque>
+using namespace std;
 
-// int main()
-// {
-//     deque<int> d={10,20,30,40};
+int main()
+{
+    deque<int> d={10,20,30,40};
 
-//     for(auto x:d)
-//     {
-//         cout<<x<<" ";
-//     }
-//   }
+    for(auto x:d)
+    {
+        cout<<x<<" ";
+    }
+  }
